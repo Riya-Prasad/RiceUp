@@ -517,7 +517,7 @@ section {
           margin: 0.7em 0;
         }
         .product-button {
-          width: 100%;
+          width: 100% !important;
         }
       }
     }
@@ -544,6 +544,9 @@ section {
         border-radius: 10px;
         overflow: hidden;
         padding: 20px;
+        .stars {
+          margin: 0.6em 0 0.4em 0;
+        }
         blockquote {
           font-size: var(--small-text);
           width: 90%;

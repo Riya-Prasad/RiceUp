@@ -471,7 +471,7 @@ section {
   margin: 0.7em 0;
 }
 .shop .container .products .product .product-button {
-  width: 100%;
+  width: 100% !important;
 }
 .shop .container .button {
   margin: 0 auto;
@@ -492,6 +492,9 @@ section {
   border-radius: 10px;
   overflow: hidden;
   padding: 20px;
+}
+.testimonial-sec .container .testimonials .testimonial .stars {
+  margin: 0.6em 0 0.4em 0;
 }
 .testimonial-sec .container .testimonials .testimonial blockquote {
   font-size: var(--small-text);
